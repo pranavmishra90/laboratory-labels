@@ -1,0 +1,55 @@
+####################################
+#         Initial Setup            #
+####################################
+
+# This docker-compose file is being built from docker-datascience
+# https://gitea.mishracloud.com/Rush/docker-datascience
+# It is being generated from a base image from jupyter/scipy-notebook
+
+####################################
+#         Docker-Compose           #
+####################################
+version: "2"
+
+####################################
+#            Networks              #
+####################################
+networks:
+  default:
+    driver: bridge
+
+####################################
+#            Services              #
+####################################
+
+services:
+  datalad-notebook:
+    image: gitea.mishracloud.com/rush/datascience:nightly
+    # image: pranavmishra90/datascience:latest
+    container_name: datalad
+    restart: "no"
+    networks:
+      - default
+    # ports:
+    #   - 8888:8888
+    environment:
+      - PUID=$PUID
+      - PGID=$PGID
+    mem_limit: 8g
+    volumes:
+      #Pass the entire repository root into the container
+      - ../../:/home/jovyan/lab/
+      #Pull the jupyter lab variables out in case you want them for later
+      - ../jupyter/.jupyter:/home/jovyan/.jupyter
+
+      # Git Annex
+      - /home/pranav/datalad/git-annex:/home/jovyan/git-annex
+      - /home/pranav/datalad/git-repo:/home/jovyan/git-repo
+
+      # Pass in GPG and zsh theme
+      - ~/powerlevel10k:/home/jovyan/powerlevel10k
+      - /home/pranav/.gnupg/:/.gnupg
+
+    command: "start-notebook.sh \
+      --NotebookApp.token='myjupyter' --NotebookApp.password='' \
+      --ContentsManager.allow_hidden=True "

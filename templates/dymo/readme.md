@@ -1,0 +1,2 @@
+## Label Size
+Dymo 30252 is the format that is used for freezer boxes, cryo labels, and generic lab labels. The cryo labels are printed on a separate cryolabel template. However, due to format changes at Dymo, we reconfigured the template so that the software believes it is printing a `Dymo 30252 label`, where the cryolabel format fits inside of the entire 30252 label.
