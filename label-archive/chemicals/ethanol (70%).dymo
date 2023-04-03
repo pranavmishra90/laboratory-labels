@@ -27,7 +27,7 @@
       <RotationBehavior>ClearObjects</RotationBehavior>
       <LabelObjects>
         <TextObject>
-          <Name>BoxTitle</Name>
+          <Name>LabelTitle</Name>
           <Brushes>
             <BackgroundBrush>
               <SolidColorBrush>
@@ -68,7 +68,37 @@
             <IsVertical>False</IsVertical>
             <LineTextSpan>
               <TextSpan>
-                <Text>Ethanol (70%)</Text>
+                <Text>Ethanol (70%</Text>
+                <FontInfo>
+                  <FontName>Arial</FontName>
+                  <FontSize>17.1</FontSize>
+                  <IsBold>False</IsBold>
+                  <IsItalic>False</IsItalic>
+                  <IsUnderline>False</IsUnderline>
+                  <FontBrush>
+                    <SolidColorBrush>
+                      <Color A="1" R="0" G="0" B="0"></Color>
+                    </SolidColorBrush>
+                  </FontBrush>
+                </FontInfo>
+              </TextSpan>
+              <TextSpan>
+                <Text> v/v</Text>
+                <FontInfo>
+                  <FontName>Arial</FontName>
+                  <FontSize>17.1</FontSize>
+                  <IsBold>False</IsBold>
+                  <IsItalic>False</IsItalic>
+                  <IsUnderline>False</IsUnderline>
+                  <FontBrush>
+                    <SolidColorBrush>
+                      <Color A="1" R="0" G="0" B="0"></Color>
+                    </SolidColorBrush>
+                  </FontBrush>
+                </FontInfo>
+              </TextSpan>
+              <TextSpan>
+                <Text>)</Text>
                 <FontInfo>
                   <FontName>Arial</FontName>
                   <FontSize>17.1</FontSize>
@@ -87,7 +117,7 @@
           <ObjectLayout>
             <DYMOPoint>
               <X>0.23</X>
-              <Y>0.09209863</Y>
+              <Y>0.05999999</Y>
             </DYMOPoint>
             <Size>
               <Width>1.954099</Width>
@@ -128,12 +158,12 @@
           </Margin>
           <BarcodeFormat>QRCode</BarcodeFormat>
           <Data>
-            <DataString>Ethanol (70% by volume)
-From 95% HistoPrep
+            <DataString>Ethanol (70% v/v)
+From 95% HistoPrep in diH2O
 
 CAUTION: Flammable
 
-Created: Oct 10, 2022
+Created: April 3, 2023
 Stored by: Pranav Kumar Mishra
 Anna Spagnoli Lab
 Rush University, Chicago, USA</DataString>
@@ -143,24 +173,24 @@ Rush University, Chicago, USA</DataString>
           <Size>AutoFit</Size>
           <EQRCodeType>QRCodeText</EQRCodeType>
           <TextDataHolder>
-            <Value>Ethanol (70% by volume)
-From 95% HistoPrep
+            <Value>Ethanol (70% v/v)
+From 95% HistoPrep in diH2O
 
 CAUTION: Flammable
 
-Created: Oct 10, 2022
+Created: April 3, 2023
 Stored by: Pranav Kumar Mishra
 Anna Spagnoli Lab
 Rush University, Chicago, USA</Value>
           </TextDataHolder>
           <ObjectLayout>
             <DYMOPoint>
-              <X>2.208784</X>
+              <X>2.193903</X>
               <Y>0.08645505</Y>
             </DYMOPoint>
             <Size>
-              <Width>0.8842511</Width>
-              <Height>0.9224012</Height>
+              <Width>0.9189746</Width>
+              <Height>0.961965</Height>
             </Size>
           </ObjectLayout>
         </QRCodeObject>
@@ -195,21 +225,21 @@ Rush University, Chicago, USA</Value>
           <Margin>
             <DYMOThickness Left="0" Top="0" Right="0" Bottom="0" />
           </Margin>
-          <HorizontalAlignment>Left</HorizontalAlignment>
-          <VerticalAlignment>Middle</VerticalAlignment>
-          <FitMode>AlwaysFit</FitMode>
+          <HorizontalAlignment>Right</HorizontalAlignment>
+          <VerticalAlignment>Top</VerticalAlignment>
+          <FitMode>None</FitMode>
           <IsVertical>False</IsVertical>
           <FormattedText>
-            <FitMode>AlwaysFit</FitMode>
-            <HorizontalAlignment>Left</HorizontalAlignment>
-            <VerticalAlignment>Middle</VerticalAlignment>
+            <FitMode>None</FitMode>
+            <HorizontalAlignment>Right</HorizontalAlignment>
+            <VerticalAlignment>Top</VerticalAlignment>
             <IsVertical>False</IsVertical>
             <LineTextSpan>
               <TextSpan>
                 <Text>Anna Spagnoli Lab</Text>
                 <FontInfo>
                   <FontName>Segoe UI</FontName>
-                  <FontSize>9.9</FontSize>
+                  <FontSize>8</FontSize>
                   <IsBold>False</IsBold>
                   <IsItalic>False</IsItalic>
                   <IsUnderline>False</IsUnderline>
@@ -224,12 +254,12 @@ Rush University, Chicago, USA</Value>
           </FormattedText>
           <ObjectLayout>
             <DYMOPoint>
-              <X>0.23</X>
-              <Y>0.6282816</Y>
+              <X>1.158991</X>
+              <Y>0.753195</Y>
             </DYMOPoint>
             <Size>
-              <Width>1.605</Width>
-              <Height>0.1988551</Height>
+              <Width>0.9750491</Width>
+              <Height>0.1641329</Height>
             </Size>
           </ObjectLayout>
         </TextObject>
@@ -275,12 +305,12 @@ Rush University, Chicago, USA</Value>
             <IsVertical>False</IsVertical>
             <LineTextSpan>
               <TextSpan>
-                <Text>From 95% HistoPrep</Text>
+                <Text>From 95% Histoprep</Text>
                 <FontInfo>
                   <FontName>Segoe UI</FontName>
                   <FontSize>8</FontSize>
                   <IsBold>False</IsBold>
-                  <IsItalic>False</IsItalic>
+                  <IsItalic>True</IsItalic>
                   <IsUnderline>False</IsUnderline>
                   <FontBrush>
                     <SolidColorBrush>
@@ -294,154 +324,16 @@ Rush University, Chicago, USA</Value>
           <ObjectLayout>
             <DYMOPoint>
               <X>0.23</X>
-              <Y>0.3219798</Y>
+              <Y>0.4549159</Y>
             </DYMOPoint>
             <Size>
-              <Width>1.262744</Width>
-              <Height>0.3424973</Height>
+              <Width>1.917514</Width>
+              <Height>0.2982791</Height>
             </Size>
           </ObjectLayout>
         </TextObject>
         <TextObject>
-          <Name>BoxName</Name>
-          <Brushes>
-            <BackgroundBrush>
-              <SolidColorBrush>
-                <Color A="0" R="1" G="1" B="1"></Color>
-              </SolidColorBrush>
-            </BackgroundBrush>
-            <BorderBrush>
-              <SolidColorBrush>
-                <Color A="1" R="0" G="0" B="0"></Color>
-              </SolidColorBrush>
-            </BorderBrush>
-            <StrokeBrush>
-              <SolidColorBrush>
-                <Color A="1" R="0" G="0" B="0"></Color>
-              </SolidColorBrush>
-            </StrokeBrush>
-            <FillBrush>
-              <SolidColorBrush>
-                <Color A="0" R="0" G="0" B="0"></Color>
-              </SolidColorBrush>
-            </FillBrush>
-          </Brushes>
-          <Rotation>Rotation270</Rotation>
-          <OutlineThickness>1</OutlineThickness>
-          <IsOutlined>False</IsOutlined>
-          <BorderStyle>SolidLine</BorderStyle>
-          <Margin>
-            <DYMOThickness Left="0" Top="0" Right="0" Bottom="0" />
-          </Margin>
-          <HorizontalAlignment>Center</HorizontalAlignment>
-          <VerticalAlignment>Middle</VerticalAlignment>
-          <FitMode>AlwaysFit</FitMode>
-          <IsVertical>False</IsVertical>
-          <FormattedText>
-            <FitMode>AlwaysFit</FitMode>
-            <HorizontalAlignment>Center</HorizontalAlignment>
-            <VerticalAlignment>Middle</VerticalAlignment>
-            <IsVertical>False</IsVertical>
-            <LineTextSpan>
-              <TextSpan>
-                <Text>Mishra</Text>
-                <FontInfo>
-                  <FontName>Segoe UI</FontName>
-                  <FontSize>6.8</FontSize>
-                  <IsBold>True</IsBold>
-                  <IsItalic>False</IsItalic>
-                  <IsUnderline>False</IsUnderline>
-                  <FontBrush>
-                    <SolidColorBrush>
-                      <Color A="1" R="0" G="0" B="0"></Color>
-                    </SolidColorBrush>
-                  </FontBrush>
-                </FontInfo>
-              </TextSpan>
-            </LineTextSpan>
-          </FormattedText>
-          <ObjectLayout>
-            <DYMOPoint>
-              <X>3.093035</X>
-              <Y>0.09209863</Y>
-            </DYMOPoint>
-            <Size>
-              <Width>0.3269644</Width>
-              <Height>0.9167582</Height>
-            </Size>
-          </ObjectLayout>
-        </TextObject>
-        <TextObject>
-          <Name>BoxDate</Name>
-          <Brushes>
-            <BackgroundBrush>
-              <SolidColorBrush>
-                <Color A="0" R="1" G="1" B="1"></Color>
-              </SolidColorBrush>
-            </BackgroundBrush>
-            <BorderBrush>
-              <SolidColorBrush>
-                <Color A="1" R="0" G="0" B="0"></Color>
-              </SolidColorBrush>
-            </BorderBrush>
-            <StrokeBrush>
-              <SolidColorBrush>
-                <Color A="1" R="0" G="0" B="0"></Color>
-              </SolidColorBrush>
-            </StrokeBrush>
-            <FillBrush>
-              <SolidColorBrush>
-                <Color A="0" R="0" G="0" B="0"></Color>
-              </SolidColorBrush>
-            </FillBrush>
-          </Brushes>
-          <Rotation>Rotation0</Rotation>
-          <OutlineThickness>1</OutlineThickness>
-          <IsOutlined>False</IsOutlined>
-          <BorderStyle>SolidLine</BorderStyle>
-          <Margin>
-            <DYMOThickness Left="0" Top="0" Right="0" Bottom="0" />
-          </Margin>
-          <HorizontalAlignment>Right</HorizontalAlignment>
-          <VerticalAlignment>Top</VerticalAlignment>
-          <FitMode>None</FitMode>
-          <IsVertical>False</IsVertical>
-          <FormattedText>
-            <FitMode>None</FitMode>
-            <HorizontalAlignment>Right</HorizontalAlignment>
-            <VerticalAlignment>Top</VerticalAlignment>
-            <IsVertical>False</IsVertical>
-            <LineTextSpan>
-              <TextSpan>
-                <Text>Oct 10, 2022</Text>
-                <FontInfo>
-                  <FontName>Segoe UI</FontName>
-                  <FontSize>8</FontSize>
-                  <IsBold>False</IsBold>
-                  <IsItalic>False</IsItalic>
-                  <IsUnderline>False</IsUnderline>
-                  <FontBrush>
-                    <SolidColorBrush>
-                      <Color A="1" R="0" G="0" B="0"></Color>
-                    </SolidColorBrush>
-                  </FontBrush>
-                </FontInfo>
-              </TextSpan>
-            </LineTextSpan>
-          </FormattedText>
-          <ObjectLayout>
-            <DYMOPoint>
-              <X>1.410382</X>
-              <Y>0.3219798</Y>
-            </DYMOPoint>
-            <Size>
-              <Width>0.6792361</Width>
-              <Height>0.2048613</Height>
-            </Size>
-          </ObjectLayout>
-        </TextObject>
-        <TextObject>
-          <Name>ExperimentName</Name>
+          <Name>BoldNotice</Name>
           <Brushes>
             <BackgroundBrush>
               <SolidColorBrush>
@@ -482,7 +374,7 @@ Rush University, Chicago, USA</Value>
             <IsVertical>False</IsVertical>
             <LineTextSpan>
               <TextSpan>
-                <Text>CAUTION: Flammable</Text>
+                <Text>Flammable</Text>
                 <FontInfo>
                   <FontName>Segoe UI</FontName>
                   <FontSize>8</FontSize>
@@ -501,11 +393,322 @@ Rush University, Chicago, USA</Value>
           <ObjectLayout>
             <DYMOPoint>
               <X>0.23</X>
-              <Y>0.8271365</Y>
+              <Y>0.8748419</Y>
             </DYMOPoint>
             <Size>
               <Width>1.857981</Width>
               <Height>0.1818248</Height>
+            </Size>
+          </ObjectLayout>
+        </TextObject>
+        <DateTimeObject>
+          <Name>AutoDate</Name>
+          <Brushes>
+            <BackgroundBrush>
+              <SolidColorBrush>
+                <Color A="0" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </BackgroundBrush>
+            <BorderBrush>
+              <SolidColorBrush>
+                <Color A="1" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </BorderBrush>
+            <StrokeBrush>
+              <SolidColorBrush>
+                <Color A="1" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </StrokeBrush>
+            <FillBrush>
+              <SolidColorBrush>
+                <Color A="0" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </FillBrush>
+          </Brushes>
+          <Rotation>Rotation270</Rotation>
+          <OutlineThickness>1</OutlineThickness>
+          <IsOutlined>False</IsOutlined>
+          <BorderStyle>SolidLine</BorderStyle>
+          <Margin>
+            <DYMOThickness Left="0" Top="0" Right="0" Bottom="0" />
+          </Margin>
+          <HorizontalAlignment>Center</HorizontalAlignment>
+          <VerticalAlignment>Middle</VerticalAlignment>
+          <FitMode>AlwaysFit</FitMode>
+          <IsVertical>False</IsVertical>
+          <FormattedText>
+            <FitMode>AlwaysFit</FitMode>
+            <HorizontalAlignment>Center</HorizontalAlignment>
+            <VerticalAlignment>Middle</VerticalAlignment>
+            <IsVertical>False</IsVertical>
+            <LineTextSpan>
+              <TextSpan>
+                <Text />
+                <FontInfo>
+                  <FontName>Segoe UI</FontName>
+                  <FontSize>2</FontSize>
+                  <IsBold>True</IsBold>
+                  <IsItalic>False</IsItalic>
+                  <IsUnderline>False</IsUnderline>
+                  <FontBrush>
+                    <SolidColorBrush>
+                      <Color A="1" R="0" G="0" B="0"></Color>
+                    </SolidColorBrush>
+                  </FontBrush>
+                </FontInfo>
+              </TextSpan>
+              <FixedTextSpan>
+                <Text>31-Mar-23</Text>
+                <FontInfo>
+                  <FontName>Segoe UI</FontName>
+                  <FontSize>2</FontSize>
+                  <IsBold>True</IsBold>
+                  <IsItalic>False</IsItalic>
+                  <IsUnderline>False</IsUnderline>
+                  <FontBrush>
+                    <SolidColorBrush>
+                      <Color A="1" R="0" G="0" B="0"></Color>
+                    </SolidColorBrush>
+                  </FontBrush>
+                </FontInfo>
+              </FixedTextSpan>
+              <TextSpan>
+                <Text />
+                <FontInfo>
+                  <FontName>Segoe UI</FontName>
+                  <FontSize>2</FontSize>
+                  <IsBold>True</IsBold>
+                  <IsItalic>False</IsItalic>
+                  <IsUnderline>False</IsUnderline>
+                  <FontBrush>
+                    <SolidColorBrush>
+                      <Color A="1" R="0" G="0" B="0"></Color>
+                    </SolidColorBrush>
+                  </FontBrush>
+                </FontInfo>
+              </TextSpan>
+            </LineTextSpan>
+          </FormattedText>
+          <Prefix />
+          <Postfix />
+          <Format>DayAbbrMonthYear</Format>
+          <Use24HourTime>False</Use24HourTime>
+          <TimeFormat>Date</TimeFormat>
+          <ObjectLayout>
+            <DYMOPoint>
+              <X>3.232082</X>
+              <Y>0.05999999</Y>
+            </DYMOPoint>
+            <Size>
+              <Width>0.1879177</Width>
+              <Height>0.986151</Height>
+            </Size>
+          </ObjectLayout>
+        </DateTimeObject>
+        <TextObject>
+          <Name>DateDescription</Name>
+          <Brushes>
+            <BackgroundBrush>
+              <SolidColorBrush>
+                <Color A="0" R="1" G="1" B="1"></Color>
+              </SolidColorBrush>
+            </BackgroundBrush>
+            <BorderBrush>
+              <SolidColorBrush>
+                <Color A="1" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </BorderBrush>
+            <StrokeBrush>
+              <SolidColorBrush>
+                <Color A="1" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </StrokeBrush>
+            <FillBrush>
+              <SolidColorBrush>
+                <Color A="0" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </FillBrush>
+          </Brushes>
+          <Rotation>Rotation270</Rotation>
+          <OutlineThickness>1</OutlineThickness>
+          <IsOutlined>False</IsOutlined>
+          <BorderStyle>SolidLine</BorderStyle>
+          <Margin>
+            <DYMOThickness Left="0" Top="0" Right="0" Bottom="0" />
+          </Margin>
+          <HorizontalAlignment>Center</HorizontalAlignment>
+          <VerticalAlignment>Top</VerticalAlignment>
+          <FitMode>None</FitMode>
+          <IsVertical>False</IsVertical>
+          <FormattedText>
+            <FitMode>None</FitMode>
+            <HorizontalAlignment>Center</HorizontalAlignment>
+            <VerticalAlignment>Top</VerticalAlignment>
+            <IsVertical>False</IsVertical>
+            <LineTextSpan>
+              <TextSpan>
+                <Text>Created</Text>
+                <FontInfo>
+                  <FontName>Segoe UI</FontName>
+                  <FontSize>8</FontSize>
+                  <IsBold>False</IsBold>
+                  <IsItalic>False</IsItalic>
+                  <IsUnderline>False</IsUnderline>
+                  <FontBrush>
+                    <SolidColorBrush>
+                      <Color A="1" R="0" G="0" B="0"></Color>
+                    </SolidColorBrush>
+                  </FontBrush>
+                </FontInfo>
+              </TextSpan>
+            </LineTextSpan>
+          </FormattedText>
+          <ObjectLayout>
+            <DYMOPoint>
+              <X>3.111626</X>
+              <Y>0.05999999</Y>
+            </DYMOPoint>
+            <Size>
+              <Width>0.2033228</Width>
+              <Height>0.9813098</Height>
+            </Size>
+          </ObjectLayout>
+        </TextObject>
+        <TextObject>
+          <Name>ScientistName</Name>
+          <Brushes>
+            <BackgroundBrush>
+              <SolidColorBrush>
+                <Color A="0" R="1" G="1" B="1"></Color>
+              </SolidColorBrush>
+            </BackgroundBrush>
+            <BorderBrush>
+              <SolidColorBrush>
+                <Color A="1" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </BorderBrush>
+            <StrokeBrush>
+              <SolidColorBrush>
+                <Color A="1" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </StrokeBrush>
+            <FillBrush>
+              <SolidColorBrush>
+                <Color A="0" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </FillBrush>
+          </Brushes>
+          <Rotation>Rotation0</Rotation>
+          <OutlineThickness>1</OutlineThickness>
+          <IsOutlined>False</IsOutlined>
+          <BorderStyle>SolidLine</BorderStyle>
+          <Margin>
+            <DYMOThickness Left="0" Top="0" Right="0" Bottom="0" />
+          </Margin>
+          <HorizontalAlignment>Left</HorizontalAlignment>
+          <VerticalAlignment>Top</VerticalAlignment>
+          <FitMode>None</FitMode>
+          <IsVertical>False</IsVertical>
+          <FormattedText>
+            <FitMode>None</FitMode>
+            <HorizontalAlignment>Left</HorizontalAlignment>
+            <VerticalAlignment>Top</VerticalAlignment>
+            <IsVertical>False</IsVertical>
+            <LineTextSpan>
+              <TextSpan>
+                <Text>Pranav Mishra</Text>
+                <FontInfo>
+                  <FontName>Segoe UI</FontName>
+                  <FontSize>8</FontSize>
+                  <IsBold>False</IsBold>
+                  <IsItalic>False</IsItalic>
+                  <IsUnderline>False</IsUnderline>
+                  <FontBrush>
+                    <SolidColorBrush>
+                      <Color A="1" R="0" G="0" B="0"></Color>
+                    </SolidColorBrush>
+                  </FontBrush>
+                </FontInfo>
+              </TextSpan>
+            </LineTextSpan>
+          </FormattedText>
+          <ObjectLayout>
+            <DYMOPoint>
+              <X>0.23</X>
+              <Y>0.753195</Y>
+            </DYMOPoint>
+            <Size>
+              <Width>0.7171031</Width>
+              <Height>0.1560712</Height>
+            </Size>
+          </ObjectLayout>
+        </TextObject>
+        <TextObject>
+          <Name>Subtitle6</Name>
+          <Brushes>
+            <BackgroundBrush>
+              <SolidColorBrush>
+                <Color A="0" R="1" G="1" B="1"></Color>
+              </SolidColorBrush>
+            </BackgroundBrush>
+            <BorderBrush>
+              <SolidColorBrush>
+                <Color A="1" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </BorderBrush>
+            <StrokeBrush>
+              <SolidColorBrush>
+                <Color A="1" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </StrokeBrush>
+            <FillBrush>
+              <SolidColorBrush>
+                <Color A="0" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </FillBrush>
+          </Brushes>
+          <Rotation>Rotation0</Rotation>
+          <OutlineThickness>1</OutlineThickness>
+          <IsOutlined>False</IsOutlined>
+          <BorderStyle>SolidLine</BorderStyle>
+          <Margin>
+            <DYMOThickness Left="0" Top="0" Right="0" Bottom="0" />
+          </Margin>
+          <HorizontalAlignment>Left</HorizontalAlignment>
+          <VerticalAlignment>Top</VerticalAlignment>
+          <FitMode>None</FitMode>
+          <IsVertical>False</IsVertical>
+          <FormattedText>
+            <FitMode>None</FitMode>
+            <HorizontalAlignment>Left</HorizontalAlignment>
+            <VerticalAlignment>Top</VerticalAlignment>
+            <IsVertical>False</IsVertical>
+            <LineTextSpan>
+              <TextSpan>
+                <Text>Ethanol in di-H2O</Text>
+                <FontInfo>
+                  <FontName>Segoe UI</FontName>
+                  <FontSize>8</FontSize>
+                  <IsBold>True</IsBold>
+                  <IsItalic>False</IsItalic>
+                  <IsUnderline>False</IsUnderline>
+                  <FontBrush>
+                    <SolidColorBrush>
+                      <Color A="1" R="0" G="0" B="0"></Color>
+                    </SolidColorBrush>
+                  </FontBrush>
+                </FontInfo>
+              </TextSpan>
+            </LineTextSpan>
+          </FormattedText>
+          <ObjectLayout>
+            <DYMOPoint>
+              <X>0.23</X>
+              <Y>0.3093681</Y>
+            </DYMOPoint>
+            <Size>
+              <Width>1.917514</Width>
+              <Height>0.1515005</Height>
             </Size>
           </ObjectLayout>
         </TextObject>
