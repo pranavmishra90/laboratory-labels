@@ -158,7 +158,7 @@
             <IsVertical>False</IsVertical>
             <LineTextSpan>
               <TextSpan>
-                <Text>Sample_ID_Code</Text>
+                <Text />
                 <FontInfo>
                   <FontName>Segoe UI</FontName>
                   <FontSize>6</FontSize>
@@ -172,6 +172,22 @@
                   </FontBrush>
                 </FontInfo>
               </TextSpan>
+              <DataMappingTextSpan>
+                <Text>8745-01-001</Text>
+                <FontInfo>
+                  <FontName>Segoe UI</FontName>
+                  <FontSize>6</FontSize>
+                  <IsBold>False</IsBold>
+                  <IsItalic>False</IsItalic>
+                  <IsUnderline>False</IsUnderline>
+                  <FontBrush>
+                    <SolidColorBrush>
+                      <Color A="1" R="0" G="0" B="0"></Color>
+                    </SolidColorBrush>
+                  </FontBrush>
+                </FontInfo>
+                <ColumnName>SampleID-LargeText</ColumnName>
+              </DataMappingTextSpan>
             </LineTextSpan>
           </FormattedText>
           <ObjectLayout>
@@ -227,7 +243,7 @@
             <IsVertical>False</IsVertical>
             <LineTextSpan>
               <TextSpan>
-                <Text>Description_1</Text>
+                <Text />
                 <FontInfo>
                   <FontName>Segoe UI</FontName>
                   <FontSize>4</FontSize>
@@ -241,16 +257,47 @@
                   </FontBrush>
                 </FontInfo>
               </TextSpan>
+              <TextSpan>
+                <Text />
+                <FontInfo>
+                  <FontName>Segoe UI</FontName>
+                  <FontSize>4</FontSize>
+                  <IsBold>False</IsBold>
+                  <IsItalic>False</IsItalic>
+                  <IsUnderline>False</IsUnderline>
+                  <FontBrush>
+                    <SolidColorBrush>
+                      <Color A="1" R="0" G="0" B="0"></Color>
+                    </SolidColorBrush>
+                  </FontBrush>
+                </FontInfo>
+              </TextSpan>
+              <DataMappingTextSpan>
+                <Text>Experiment x1</Text>
+                <FontInfo>
+                  <FontName>Segoe UI</FontName>
+                  <FontSize>4</FontSize>
+                  <IsBold>False</IsBold>
+                  <IsItalic>False</IsItalic>
+                  <IsUnderline>False</IsUnderline>
+                  <FontBrush>
+                    <SolidColorBrush>
+                      <Color A="1" R="0" G="0" B="0"></Color>
+                    </SolidColorBrush>
+                  </FontBrush>
+                </FontInfo>
+                <ColumnName>SampleBoldName</ColumnName>
+              </DataMappingTextSpan>
             </LineTextSpan>
           </FormattedText>
           <ObjectLayout>
             <DYMOPoint>
-              <X>0.4872377</X>
-              <Y>0.534622</Y>
+              <X>0.4840629</X>
+              <Y>0.5325795</Y>
             </DYMOPoint>
             <Size>
-              <Width>0.8546184</Width>
-              <Height>0.1250002</Height>
+              <Width>0.8372563</Width>
+              <Height>0.125</Height>
             </Size>
           </ObjectLayout>
         </TextObject>
@@ -296,7 +343,7 @@
             <IsVertical>False</IsVertical>
             <LineTextSpan>
               <TextSpan>
-                <Text>Sample-Bold-Name</Text>
+                <Text />
                 <FontInfo>
                   <FontName>Segoe UI</FontName>
                   <FontSize>5</FontSize>
@@ -310,12 +357,28 @@
                   </FontBrush>
                 </FontInfo>
               </TextSpan>
+              <DataMappingTextSpan>
+                <Text>Description 001</Text>
+                <FontInfo>
+                  <FontName>Segoe UI</FontName>
+                  <FontSize>5</FontSize>
+                  <IsBold>True</IsBold>
+                  <IsItalic>False</IsItalic>
+                  <IsUnderline>False</IsUnderline>
+                  <FontBrush>
+                    <SolidColorBrush>
+                      <Color A="1" R="0" G="0" B="0"></Color>
+                    </SolidColorBrush>
+                  </FontBrush>
+                </FontInfo>
+                <ColumnName>SubDescription_1</ColumnName>
+              </DataMappingTextSpan>
             </LineTextSpan>
           </FormattedText>
           <ObjectLayout>
             <DYMOPoint>
               <X>0.4872377</X>
-              <Y>0.4177137</Y>
+              <Y>0.4223434</Y>
             </DYMOPoint>
             <Size>
               <Width>0.8514435</Width>
@@ -356,18 +419,21 @@
           </Margin>
           <BarcodeFormat>QRCode</BarcodeFormat>
           <Data>
-            <DataString>9999-J#-LR-G#-D#-Exp-##</DataString>
+            <DataString>URL:Experiment01 Description 001</DataString>
           </Data>
           <HorizontalAlignment>Center</HorizontalAlignment>
           <VerticalAlignment>Middle</VerticalAlignment>
-          <Size>AutoFit</Size>
-          <EQRCodeType>QRCodeText</EQRCodeType>
-          <TextDataHolder>
-            <Value>9999-J#-LR-G#-D#-Exp-##</Value>
-          </TextDataHolder>
+          <Size>Small</Size>
+          <EQRCodeType>QRCodeWebPage</EQRCodeType>
+          <WebAddressDataHolder>
+            <MultiDataString>
+              <DataString></DataString>
+              <MappableDataString>SampleQRField</MappableDataString>
+            </MultiDataString>
+          </WebAddressDataHolder>
           <ObjectLayout>
             <DYMOPoint>
-              <X>1.319538</X>
+              <X>1.298705</X>
               <Y>0.3554629</Y>
             </DYMOPoint>
             <Size>
@@ -418,7 +484,7 @@
             <IsVertical>False</IsVertical>
             <LineTextSpan>
               <TextSpan>
-                <Text>9999</Text>
+                <Text />
                 <FontInfo>
                   <FontName>Segoe UI</FontName>
                   <FontSize>6</FontSize>
@@ -432,15 +498,31 @@
                   </FontBrush>
                 </FontInfo>
               </TextSpan>
+              <DataMappingTextSpan>
+                <Text>8745</Text>
+                <FontInfo>
+                  <FontName>Segoe UI</FontName>
+                  <FontSize>6</FontSize>
+                  <IsBold>True</IsBold>
+                  <IsItalic>False</IsItalic>
+                  <IsUnderline>False</IsUnderline>
+                  <FontBrush>
+                    <SolidColorBrush>
+                      <Color A="1" R="0" G="0" B="0"></Color>
+                    </SolidColorBrush>
+                  </FontBrush>
+                </FontInfo>
+                <ColumnName>Top-Sample-Number</ColumnName>
+              </DataMappingTextSpan>
             </LineTextSpan>
           </FormattedText>
           <ObjectLayout>
             <DYMOPoint>
-              <X>1.902871</X>
-              <Y>0.3798767</Y>
+              <X>1.916374</X>
+              <Y>0.3798766</Y>
             </DYMOPoint>
             <Size>
-              <Width>0.2870992</Width>
+              <Width>0.2454325</Width>
               <Height>0.1342593</Height>
             </Size>
           </ObjectLayout>
@@ -487,10 +569,10 @@
             <IsVertical>False</IsVertical>
             <LineTextSpan>
               <TextSpan>
-                <Text>ABBR-Bold</Text>
+                <Text />
                 <FontInfo>
                   <FontName>Segoe UI</FontName>
-                  <FontSize>4.7</FontSize>
+                  <FontSize>6.3</FontSize>
                   <IsBold>True</IsBold>
                   <IsItalic>False</IsItalic>
                   <IsUnderline>False</IsUnderline>
@@ -501,6 +583,22 @@
                   </FontBrush>
                 </FontInfo>
               </TextSpan>
+              <DataMappingTextSpan>
+                <Text>Exp 01</Text>
+                <FontInfo>
+                  <FontName>Segoe UI</FontName>
+                  <FontSize>6.3</FontSize>
+                  <IsBold>True</IsBold>
+                  <IsItalic>False</IsItalic>
+                  <IsUnderline>False</IsUnderline>
+                  <FontBrush>
+                    <SolidColorBrush>
+                      <Color A="1" R="0" G="0" B="0"></Color>
+                    </SolidColorBrush>
+                  </FontBrush>
+                </FontInfo>
+                <ColumnName>Top-Sample-Name</ColumnName>
+              </DataMappingTextSpan>
             </LineTextSpan>
           </FormattedText>
           <ObjectLayout>
@@ -545,21 +643,21 @@
           <Margin>
             <DYMOThickness Left="0" Top="0" Right="0" Bottom="0" />
           </Margin>
-          <HorizontalAlignment>Center</HorizontalAlignment>
+          <HorizontalAlignment>Left</HorizontalAlignment>
           <VerticalAlignment>Middle</VerticalAlignment>
           <FitMode>AlwaysFit</FitMode>
           <IsVertical>False</IsVertical>
           <FormattedText>
             <FitMode>AlwaysFit</FitMode>
-            <HorizontalAlignment>Center</HorizontalAlignment>
+            <HorizontalAlignment>Left</HorizontalAlignment>
             <VerticalAlignment>Middle</VerticalAlignment>
             <IsVertical>False</IsVertical>
             <LineTextSpan>
               <TextSpan>
-                <Text>Exp</Text>
+                <Text />
                 <FontInfo>
                   <FontName>Segoe UI</FontName>
-                  <FontSize>6.1</FontSize>
+                  <FontSize>4.7</FontSize>
                   <IsBold>False</IsBold>
                   <IsItalic>False</IsItalic>
                   <IsUnderline>False</IsUnderline>
@@ -570,16 +668,47 @@
                   </FontBrush>
                 </FontInfo>
               </TextSpan>
+              <TextSpan>
+                <Text />
+                <FontInfo>
+                  <FontName>Segoe UI</FontName>
+                  <FontSize>4.7</FontSize>
+                  <IsBold>False</IsBold>
+                  <IsItalic>False</IsItalic>
+                  <IsUnderline>False</IsUnderline>
+                  <FontBrush>
+                    <SolidColorBrush>
+                      <Color A="1" R="0" G="0" B="0"></Color>
+                    </SolidColorBrush>
+                  </FontBrush>
+                </FontInfo>
+              </TextSpan>
+              <DataMappingTextSpan>
+                <Text>S001</Text>
+                <FontInfo>
+                  <FontName>Segoe UI</FontName>
+                  <FontSize>4.7</FontSize>
+                  <IsBold>False</IsBold>
+                  <IsItalic>False</IsItalic>
+                  <IsUnderline>False</IsUnderline>
+                  <FontBrush>
+                    <SolidColorBrush>
+                      <Color A="1" R="0" G="0" B="0"></Color>
+                    </SolidColorBrush>
+                  </FontBrush>
+                </FontInfo>
+                <ColumnName>Top-Sample-Experiment-Description</ColumnName>
+              </DataMappingTextSpan>
             </LineTextSpan>
           </FormattedText>
           <ObjectLayout>
             <DYMOPoint>
-              <X>1.943572</X>
-              <Y>0.5775391</Y>
+              <X>1.949569</X>
+              <Y>0.5930371</Y>
             </DYMOPoint>
             <Size>
-              <Width>0.205698</Width>
-              <Height>0.125</Height>
+              <Width>0.2271882</Width>
+              <Height>0.129085</Height>
             </Size>
           </ObjectLayout>
         </TextObject>
@@ -625,7 +754,92 @@
             <IsVertical>False</IsVertical>
             <LineTextSpan>
               <TextSpan>
-                <Text>Pranav Mishra - Spagnoli Lab</Text>
+                <Text />
+                <FontInfo>
+                  <FontName>Segoe UI</FontName>
+                  <FontSize>4</FontSize>
+                  <IsBold>True</IsBold>
+                  <IsItalic>False</IsItalic>
+                  <IsUnderline>False</IsUnderline>
+                  <FontBrush>
+                    <SolidColorBrush>
+                      <Color A="1" R="0" G="0" B="0"></Color>
+                    </SolidColorBrush>
+                  </FontBrush>
+                </FontInfo>
+              </TextSpan>
+              <DataMappingTextSpan>
+                <Text>Pranav Mishra</Text>
+                <FontInfo>
+                  <FontName>Segoe UI</FontName>
+                  <FontSize>4</FontSize>
+                  <IsBold>True</IsBold>
+                  <IsItalic>False</IsItalic>
+                  <IsUnderline>False</IsUnderline>
+                  <FontBrush>
+                    <SolidColorBrush>
+                      <Color A="1" R="0" G="0" B="0"></Color>
+                    </SolidColorBrush>
+                  </FontBrush>
+                </FontInfo>
+                <ColumnName>SubDescription_2</ColumnName>
+              </DataMappingTextSpan>
+            </LineTextSpan>
+          </FormattedText>
+          <ObjectLayout>
+            <DYMOPoint>
+              <X>0.5024004</X>
+              <Y>0.6353066</Y>
+            </DYMOPoint>
+            <Size>
+              <Width>0.8362809</Width>
+              <Height>0.125</Height>
+            </Size>
+          </ObjectLayout>
+        </TextObject>
+        <TextObject>
+          <Name>Sample-Category</Name>
+          <Brushes>
+            <BackgroundBrush>
+              <SolidColorBrush>
+                <Color A="0" R="1" G="1" B="1"></Color>
+              </SolidColorBrush>
+            </BackgroundBrush>
+            <BorderBrush>
+              <SolidColorBrush>
+                <Color A="1" R="0.92" G="0.92" B="0.92"></Color>
+              </SolidColorBrush>
+            </BorderBrush>
+            <StrokeBrush>
+              <SolidColorBrush>
+                <Color A="1" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </StrokeBrush>
+            <FillBrush>
+              <SolidColorBrush>
+                <Color A="0" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </FillBrush>
+          </Brushes>
+          <Rotation>Rotation0</Rotation>
+          <OutlineThickness>1</OutlineThickness>
+          <IsOutlined>False</IsOutlined>
+          <BorderStyle>SolidLine</BorderStyle>
+          <Margin>
+            <DYMOThickness Left="0" Top="0" Right="0" Bottom="0" />
+          </Margin>
+          <HorizontalAlignment>Right</HorizontalAlignment>
+          <VerticalAlignment>Middle</VerticalAlignment>
+          <FitMode>None</FitMode>
+          <IsVertical>False</IsVertical>
+          <FormattedText>
+            <FitMode>None</FitMode>
+            <HorizontalAlignment>Right</HorizontalAlignment>
+            <VerticalAlignment>Middle</VerticalAlignment>
+            <IsVertical>False</IsVertical>
+            <LineTextSpan>
+              <TextSpan>
+                <Text>RYGBT</Text>
                 <FontInfo>
                   <FontName>Segoe UI</FontName>
                   <FontSize>4</FontSize>
@@ -643,12 +857,12 @@
           </FormattedText>
           <ObjectLayout>
             <DYMOPoint>
-              <X>0.4872377</X>
-              <Y>0.6304018</Y>
+              <X>1.0425</X>
+              <Y>0.52875</Y>
             </DYMOPoint>
             <Size>
-              <Width>0.8679554</Width>
-              <Height>0.125</Height>
+              <Width>0.2782305</Width>
+              <Height>0.1250002</Height>
             </Size>
           </ObjectLayout>
         </TextObject>
@@ -657,7 +871,117 @@
   </DYMOLabel>
   <LabelApplication>Blank</LabelApplication>
   <DataTable>
-    <Columns></Columns>
-    <Rows></Rows>
+    <Columns>
+      <DataColumn>SampleID-LargeText</DataColumn>
+      <DataColumn>SubDescription_1</DataColumn>
+      <DataColumn>SampleBoldName</DataColumn>
+      <DataColumn>SampleQRField</DataColumn>
+      <DataColumn>Top-Sample-Number</DataColumn>
+      <DataColumn>Top-Sample-Name</DataColumn>
+      <DataColumn>Top-Sample-Experiment-Description</DataColumn>
+      <DataColumn>SubDescription_2</DataColumn>
+    </Columns>
+    <Rows>
+      <DataRow>
+        <Value>8745-01-001</Value>
+        <Value>Description 001</Value>
+        <Value>Experiment x1</Value>
+        <Value>Experiment01 Description 001</Value>
+        <Value>8745</Value>
+        <Value>Exp 01</Value>
+        <Value>S001</Value>
+        <Value>Pranav Mishra</Value>
+      </DataRow>
+      <DataRow>
+        <Value>8745-01-002</Value>
+        <Value>Description 002</Value>
+        <Value>Experiment x1</Value>
+        <Value>Experiment01 Description 002</Value>
+        <Value>8745</Value>
+        <Value>Exp 01</Value>
+        <Value>S002</Value>
+        <Value>Pranav Mishra</Value>
+      </DataRow>
+      <DataRow>
+        <Value>8745-01-003</Value>
+        <Value>Description 003</Value>
+        <Value>Experiment x1</Value>
+        <Value>Experiment01 Description 003</Value>
+        <Value>8745</Value>
+        <Value>Exp 01</Value>
+        <Value>S003</Value>
+        <Value>Pranav Mishra</Value>
+      </DataRow>
+      <DataRow>
+        <Value>8745-01-004</Value>
+        <Value>Description 004</Value>
+        <Value>Experiment x1</Value>
+        <Value>Experiment01 Description 004</Value>
+        <Value>8745</Value>
+        <Value>Exp 01</Value>
+        <Value>S004</Value>
+        <Value>Pranav Mishra</Value>
+      </DataRow>
+      <DataRow>
+        <Value>8745-01-005</Value>
+        <Value>Description 005</Value>
+        <Value>Experiment x1</Value>
+        <Value>Experiment01 Description 005</Value>
+        <Value>8745</Value>
+        <Value>Exp 01</Value>
+        <Value>S005</Value>
+        <Value>Pranav Mishra</Value>
+      </DataRow>
+      <DataRow>
+        <Value>8745-01-006</Value>
+        <Value>Description 006</Value>
+        <Value>Experiment x1</Value>
+        <Value>Experiment01 Description 006</Value>
+        <Value>8745</Value>
+        <Value>Exp 01</Value>
+        <Value>S006</Value>
+        <Value>Pranav Mishra</Value>
+      </DataRow>
+      <DataRow>
+        <Value>8745-01-007</Value>
+        <Value>Description 007</Value>
+        <Value>Experiment x1</Value>
+        <Value>Experiment01 Description 007</Value>
+        <Value>8745</Value>
+        <Value>Exp 01</Value>
+        <Value>S007</Value>
+        <Value>Pranav Mishra</Value>
+      </DataRow>
+      <DataRow>
+        <Value>8745-01-008</Value>
+        <Value>Description 008</Value>
+        <Value>Experiment x1</Value>
+        <Value>Experiment01 Description 008</Value>
+        <Value>8745</Value>
+        <Value>Exp 01</Value>
+        <Value>S008</Value>
+        <Value>Pranav Mishra</Value>
+      </DataRow>
+      <DataRow>
+        <Value>8745-01-009</Value>
+        <Value>Description 009</Value>
+        <Value>Experiment x1</Value>
+        <Value>Experiment01 Description 009</Value>
+        <Value>8745</Value>
+        <Value>Exp 01</Value>
+        <Value>S009</Value>
+        <Value>Pranav Mishra</Value>
+      </DataRow>
+      <DataRow>
+        <Value>8745-01-010</Value>
+        <Value>Description 010</Value>
+        <Value>Experiment x1</Value>
+        <Value>Experiment01 Description 010</Value>
+        <Value>8745</Value>
+        <Value>Exp 01</Value>
+        <Value>S010</Value>
+        <Value>Pranav Mishra</Value>
+      </DataRow>
+    </Rows>
   </DataTable>
 </DesktopLabel>
