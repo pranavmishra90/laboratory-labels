@@ -68,10 +68,40 @@
             <IsVertical>False</IsVertical>
             <LineTextSpan>
               <TextSpan>
-                <Text>PBS 10x Stock</Text>
+                <Text>1x TBS </Text>
                 <FontInfo>
                   <FontName>Arial</FontName>
-                  <FontSize>17.1</FontSize>
+                  <FontSize>8.5</FontSize>
+                  <IsBold>False</IsBold>
+                  <IsItalic>False</IsItalic>
+                  <IsUnderline>False</IsUnderline>
+                  <FontBrush>
+                    <SolidColorBrush>
+                      <Color A="1" R="0" G="0" B="0"></Color>
+                    </SolidColorBrush>
+                  </FontBrush>
+                </FontInfo>
+              </TextSpan>
+              <TextSpan>
+                <Text>with 0.1%</Text>
+                <FontInfo>
+                  <FontName>Arial</FontName>
+                  <FontSize>8.5</FontSize>
+                  <IsBold>False</IsBold>
+                  <IsItalic>False</IsItalic>
+                  <IsUnderline>False</IsUnderline>
+                  <FontBrush>
+                    <SolidColorBrush>
+                      <Color A="1" R="0" G="0" B="0"></Color>
+                    </SolidColorBrush>
+                  </FontBrush>
+                </FontInfo>
+              </TextSpan>
+              <TextSpan>
+                <Text> Tween 20 (TBST)</Text>
+                <FontInfo>
+                  <FontName>Arial</FontName>
+                  <FontSize>8.5</FontSize>
                   <IsBold>False</IsBold>
                   <IsItalic>False</IsItalic>
                   <IsUnderline>False</IsUnderline>
@@ -128,29 +158,39 @@
           </Margin>
           <BarcodeFormat>QRCode</BarcodeFormat>
           <Data>
-            <DataString>PBS 10x Stock
-Phosphate Buffered Saline (10x Stock)
-NaCl 80, KCl 2, Na2HPO4 14.4, KH2PO4 2.45 (g/L)
-pH 7.4
-Caution: Sterile
+            <DataString>Tris Buffered Saline with 0.1% Tween-20 Detergent (TBST)
+Tris Base 20 mM; NaCl 150 mM, pH 7.6
+0.1% v/v Tween-20
 
-Created: May 8, 2023
+Tris Base Ficher BP154-1
+NaCl Ficher S640-10
+Tween-20 Santa Cruz sc-29113
+HCl lab stock
+Sterile diH2O
+
+
+Created: April 20, 2023
 Stored by: Pranav Kumar Mishra
 Anna Spagnoli Lab
 Rush University, Chicago, IL, USA</DataString>
           </Data>
           <HorizontalAlignment>Center</HorizontalAlignment>
           <VerticalAlignment>Middle</VerticalAlignment>
-          <Size>AutoFit</Size>
+          <Size>Small</Size>
           <EQRCodeType>QRCodeText</EQRCodeType>
           <TextDataHolder>
-            <Value>PBS 10x Stock
-Phosphate Buffered Saline (10x Stock)
-NaCl 80, KCl 2, Na2HPO4 14.4, KH2PO4 2.45 (g/L)
-pH 7.4
-Caution: Sterile
+            <Value>Tris Buffered Saline with 0.1% Tween-20 Detergent (TBST)
+Tris Base 20 mM; NaCl 150 mM, pH 7.6
+0.1% v/v Tween-20
 
-Created: May 8, 2023
+Tris Base Ficher BP154-1
+NaCl Ficher S640-10
+Tween-20 Santa Cruz sc-29113
+HCl lab stock
+Sterile diH2O
+
+
+Created: April 20, 2023
 Stored by: Pranav Kumar Mishra
 Anna Spagnoli Lab
 Rush University, Chicago, IL, USA</Value>
@@ -161,8 +201,8 @@ Rush University, Chicago, IL, USA</Value>
               <Y>0.08645505</Y>
             </DYMOPoint>
             <Size>
-              <Width>0.9189746</Width>
-              <Height>0.961965</Height>
+              <Width>0.9617097</Width>
+              <Height>0.9502116</Height>
             </Size>
           </ObjectLayout>
         </QRCodeObject>
@@ -227,7 +267,7 @@ Rush University, Chicago, IL, USA</Value>
           <ObjectLayout>
             <DYMOPoint>
               <X>1.158991</X>
-              <Y>0.753195</Y>
+              <Y>0.8226394</Y>
             </DYMOPoint>
             <Size>
               <Width>0.9750491</Width>
@@ -268,19 +308,19 @@ Rush University, Chicago, IL, USA</Value>
           </Margin>
           <HorizontalAlignment>Left</HorizontalAlignment>
           <VerticalAlignment>Top</VerticalAlignment>
-          <FitMode>None</FitMode>
+          <FitMode>AlwaysFit</FitMode>
           <IsVertical>False</IsVertical>
           <FormattedText>
-            <FitMode>None</FitMode>
+            <FitMode>AlwaysFit</FitMode>
             <HorizontalAlignment>Left</HorizontalAlignment>
             <VerticalAlignment>Top</VerticalAlignment>
             <IsVertical>False</IsVertical>
             <LineTextSpan>
               <TextSpan>
-                <Text>Phosphate Buffered Saline (10x Stock)</Text>
+                <Text>Tris Base 20 mM; NaCl 150 mM</Text>
                 <FontInfo>
                   <FontName>Segoe UI</FontName>
-                  <FontSize>6</FontSize>
+                  <FontSize>7.7</FontSize>
                   <IsBold>False</IsBold>
                   <IsItalic>False</IsItalic>
                   <IsUnderline>False</IsUnderline>
@@ -294,27 +334,10 @@ Rush University, Chicago, IL, USA</Value>
             </LineTextSpan>
             <LineTextSpan>
               <TextSpan>
-                <Text>NaCl 80, KCl 2, Na2HPO4 14.4, KH2PO4 2.45 (g/L)</Text>
+                <Text>pH 7.6, 0.1% v/v Tween 20</Text>
                 <FontInfo>
                   <FontName>Segoe UI</FontName>
-                  <FontSize>6</FontSize>
-                  <IsBold>False</IsBold>
-                  <IsItalic>False</IsItalic>
-                  <IsUnderline>False</IsUnderline>
-                  <FontBrush>
-                    <SolidColorBrush>
-                      <Color A="1" R="0" G="0" B="0"></Color>
-                    </SolidColorBrush>
-                  </FontBrush>
-                </FontInfo>
-              </TextSpan>
-            </LineTextSpan>
-            <LineTextSpan>
-              <TextSpan>
-                <Text>pH 7.4</Text>
-                <FontInfo>
-                  <FontName>Segoe UI</FontName>
-                  <FontSize>6</FontSize>
+                  <FontSize>7.7</FontSize>
                   <IsBold>False</IsBold>
                   <IsItalic>False</IsItalic>
                   <IsUnderline>False</IsUnderline>
@@ -330,11 +353,11 @@ Rush University, Chicago, IL, USA</Value>
           <ObjectLayout>
             <DYMOPoint>
               <X>0.23</X>
-              <Y>0.3219798</Y>
+              <Y>0.4549159</Y>
             </DYMOPoint>
             <Size>
               <Width>1.917514</Width>
-              <Height>0.4163344</Height>
+              <Height>0.2982791</Height>
             </Size>
           </ObjectLayout>
         </TextObject>
@@ -380,7 +403,7 @@ Rush University, Chicago, IL, USA</Value>
             <IsVertical>False</IsVertical>
             <LineTextSpan>
               <TextSpan>
-                <Text>Sterile</Text>
+                <Text />
                 <FontInfo>
                   <FontName>Segoe UI</FontName>
                   <FontSize>8</FontSize>
@@ -464,7 +487,7 @@ Rush University, Chicago, IL, USA</Value>
                 </FontInfo>
               </TextSpan>
               <FixedTextSpan>
-                <Text>8-May-23</Text>
+                <Text>20-Apr-23</Text>
                 <FontInfo>
                   <FontName>Segoe UI</FontName>
                   <FontSize>2</FontSize>
@@ -641,11 +664,80 @@ Rush University, Chicago, IL, USA</Value>
           <ObjectLayout>
             <DYMOPoint>
               <X>0.23</X>
-              <Y>0.753195</Y>
+              <Y>0.8226394</Y>
             </DYMOPoint>
             <Size>
               <Width>0.7171031</Width>
               <Height>0.1560712</Height>
+            </Size>
+          </ObjectLayout>
+        </TextObject>
+        <TextObject>
+          <Name>Subtitle6</Name>
+          <Brushes>
+            <BackgroundBrush>
+              <SolidColorBrush>
+                <Color A="0" R="1" G="1" B="1"></Color>
+              </SolidColorBrush>
+            </BackgroundBrush>
+            <BorderBrush>
+              <SolidColorBrush>
+                <Color A="1" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </BorderBrush>
+            <StrokeBrush>
+              <SolidColorBrush>
+                <Color A="1" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </StrokeBrush>
+            <FillBrush>
+              <SolidColorBrush>
+                <Color A="0" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </FillBrush>
+          </Brushes>
+          <Rotation>Rotation0</Rotation>
+          <OutlineThickness>1</OutlineThickness>
+          <IsOutlined>False</IsOutlined>
+          <BorderStyle>SolidLine</BorderStyle>
+          <Margin>
+            <DYMOThickness Left="0" Top="0" Right="0" Bottom="0" />
+          </Margin>
+          <HorizontalAlignment>Left</HorizontalAlignment>
+          <VerticalAlignment>Top</VerticalAlignment>
+          <FitMode>AlwaysFit</FitMode>
+          <IsVertical>False</IsVertical>
+          <FormattedText>
+            <FitMode>AlwaysFit</FitMode>
+            <HorizontalAlignment>Left</HorizontalAlignment>
+            <VerticalAlignment>Top</VerticalAlignment>
+            <IsVertical>False</IsVertical>
+            <LineTextSpan>
+              <TextSpan>
+                <Text>Tris-Buffered Saline + Tween 20 Detergent</Text>
+                <FontInfo>
+                  <FontName>Segoe UI</FontName>
+                  <FontSize>6.4</FontSize>
+                  <IsBold>True</IsBold>
+                  <IsItalic>False</IsItalic>
+                  <IsUnderline>False</IsUnderline>
+                  <FontBrush>
+                    <SolidColorBrush>
+                      <Color A="1" R="0" G="0" B="0"></Color>
+                    </SolidColorBrush>
+                  </FontBrush>
+                </FontInfo>
+              </TextSpan>
+            </LineTextSpan>
+          </FormattedText>
+          <ObjectLayout>
+            <DYMOPoint>
+              <X>0.23</X>
+              <Y>0.3093681</Y>
+            </DYMOPoint>
+            <Size>
+              <Width>1.960249</Width>
+              <Height>0.1515005</Height>
             </Size>
           </ObjectLayout>
         </TextObject>

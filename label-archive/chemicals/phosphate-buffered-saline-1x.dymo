@@ -128,13 +128,13 @@
           </Margin>
           <BarcodeFormat>QRCode</BarcodeFormat>
           <Data>
-            <DataString>PBS 10x Stock
+            <DataString>1x PBS
 Phosphate Buffered Saline from 10x stock
 NaCl 8, KCl 0.2, Na2HPO4 1.44, KH2PO4 0.245 (g/L)
 pH 7.4
 Caution: Sterile
 
-Created: March 31, 2022
+From 10x stock created: May 8, 2023
 Stored by: Pranav Kumar Mishra
 Anna Spagnoli Lab
 Rush University, Chicago, IL, USA</DataString>
@@ -144,13 +144,13 @@ Rush University, Chicago, IL, USA</DataString>
           <Size>AutoFit</Size>
           <EQRCodeType>QRCodeText</EQRCodeType>
           <TextDataHolder>
-            <Value>PBS 10x Stock
+            <Value>1x PBS
 Phosphate Buffered Saline from 10x stock
 NaCl 8, KCl 0.2, Na2HPO4 1.44, KH2PO4 0.245 (g/L)
 pH 7.4
 Caution: Sterile
 
-Created: March 31, 2022
+From 10x stock created: May 8, 2023
 Stored by: Pranav Kumar Mishra
 Anna Spagnoli Lab
 Rush University, Chicago, IL, USA</Value>
@@ -464,7 +464,7 @@ Rush University, Chicago, IL, USA</Value>
                 </FontInfo>
               </TextSpan>
               <FixedTextSpan>
-                <Text>31-Mar-23</Text>
+                <Text>8-May-23</Text>
                 <FontInfo>
                   <FontName>Segoe UI</FontName>
                   <FontSize>2</FontSize>

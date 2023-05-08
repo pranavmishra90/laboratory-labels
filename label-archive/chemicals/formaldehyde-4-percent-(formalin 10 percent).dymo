@@ -71,7 +71,7 @@
                 <Text>Formaldehyde</Text>
                 <FontInfo>
                   <FontName>Arial</FontName>
-                  <FontSize>10</FontSize>
+                  <FontSize>10.1</FontSize>
                   <IsBold>False</IsBold>
                   <IsItalic>False</IsItalic>
                   <IsUnderline>False</IsUnderline>
@@ -86,7 +86,7 @@
                 <Text> in PBS</Text>
                 <FontInfo>
                   <FontName>Arial</FontName>
-                  <FontSize>10</FontSize>
+                  <FontSize>10.1</FontSize>
                   <IsBold>False</IsBold>
                   <IsItalic>False</IsItalic>
                   <IsUnderline>False</IsUnderline>
@@ -101,7 +101,7 @@
                 <Text> (4% v/v)</Text>
                 <FontInfo>
                   <FontName>Arial</FontName>
-                  <FontSize>10</FontSize>
+                  <FontSize>10.1</FontSize>
                   <IsBold>False</IsBold>
                   <IsItalic>False</IsItalic>
                   <IsUnderline>False</IsUnderline>
@@ -164,7 +164,7 @@
 
 Caution: Health Hazard (Carcinogen, Skin Sensitivity, Serious Eye Damage); Corrosion
 
-Created: March 31, 2022
+Created: May 3, 2023
 Stored by: Pranav Kumar Mishra
 Anna Spagnoli Lab
 Rush University, Chicago, IL, USA</DataString>
@@ -180,7 +180,7 @@ Rush University, Chicago, IL, USA</DataString>
 
 Caution: Health Hazard (Carcinogen, Skin Sensitivity, Serious Eye Damage); Corrosion
 
-Created: March 31, 2022
+Created: May 3, 2023
 Stored by: Pranav Kumar Mishra
 Anna Spagnoli Lab
 Rush University, Chicago, IL, USA</Value>
@@ -494,7 +494,7 @@ Rush University, Chicago, IL, USA</Value>
                 </FontInfo>
               </TextSpan>
               <FixedTextSpan>
-                <Text>31-Mar-23</Text>
+                <Text>3-May-23</Text>
                 <FontInfo>
                   <FontName>Segoe UI</FontName>
                   <FontSize>2</FontSize>
