@@ -132,9 +132,10 @@
 Phosphate Buffered Saline (10x Stock)
 NaCl 80, KCl 2, Na2HPO4 14.4, KH2PO4 2.45 (g/L)
 pH 7.4
-Caution: Sterile
 
-Created: May 8, 2023
+Caution: Clean (Not guaranteed sterile). All ingredients are sterile. However, the pH probe used to test the pH is not sterile.
+
+Created: May 16, 2023
 Stored by: Pranav Kumar Mishra
 Anna Spagnoli Lab
 Rush University, Chicago, IL, USA</DataString>
@@ -148,9 +149,10 @@ Rush University, Chicago, IL, USA</DataString>
 Phosphate Buffered Saline (10x Stock)
 NaCl 80, KCl 2, Na2HPO4 14.4, KH2PO4 2.45 (g/L)
 pH 7.4
-Caution: Sterile
 
-Created: May 8, 2023
+Caution: Clean (Not guaranteed sterile). All ingredients are sterile. However, the pH probe used to test the pH is not sterile.
+
+Created: May 16, 2023
 Stored by: Pranav Kumar Mishra
 Anna Spagnoli Lab
 Rush University, Chicago, IL, USA</Value>
@@ -380,7 +382,7 @@ Rush University, Chicago, IL, USA</Value>
             <IsVertical>False</IsVertical>
             <LineTextSpan>
               <TextSpan>
-                <Text>Sterile</Text>
+                <Text>Clean (Not guaranteed sterile)</Text>
                 <FontInfo>
                   <FontName>Segoe UI</FontName>
                   <FontSize>8</FontSize>
@@ -464,7 +466,7 @@ Rush University, Chicago, IL, USA</Value>
                 </FontInfo>
               </TextSpan>
               <FixedTextSpan>
-                <Text>8-May-23</Text>
+                <Text>16-May-23</Text>
                 <FontInfo>
                   <FontName>Segoe UI</FontName>
                   <FontSize>2</FontSize>
