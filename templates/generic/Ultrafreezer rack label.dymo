@@ -128,34 +128,38 @@
           </Margin>
           <BarcodeFormat>QRCode</BarcodeFormat>
           <Data>
-            <DataString>OA-PTOA Project
-IL-36RA Experiment
-Rack 2: Historical boxes (before Aug 2021)
+            <DataString>Rack-Title-Here
+Subtitle
+Rack 1
 
-ELISA
-Human Serum
+More description can be written
 
-Rack reorganized: Oct 31, 2023
-Stored by: Pranav Kumar Mishra
-Anna Spagnoli Lab
-Rush University, Chicago, IL, USA</DataString>
+Experiment-Name
+IRB / IACUC number
+
+Rack created: Jan 1, 2023
+Stored by: Scientist Name
+Principle Investigator Laboratory
+University, City, State, Country</DataString>
           </Data>
           <HorizontalAlignment>Center</HorizontalAlignment>
           <VerticalAlignment>Middle</VerticalAlignment>
           <Size>AutoFit</Size>
           <EQRCodeType>QRCodeText</EQRCodeType>
           <TextDataHolder>
-            <Value>OA-PTOA Project
-IL-36RA Experiment
-Rack 2: Historical boxes (before Aug 2021)
+            <Value>Rack-Title-Here
+Subtitle
+Rack 1
 
-ELISA
-Human Serum
+More description can be written
 
-Rack reorganized: Oct 31, 2023
-Stored by: Pranav Kumar Mishra
-Anna Spagnoli Lab
-Rush University, Chicago, IL, USA</Value>
+Experiment-Name
+IRB / IACUC number
+
+Rack created: Jan 1, 2023
+Stored by: Scientist Name
+Principle Investigator Laboratory
+University, City, State, Country</Value>
           </TextDataHolder>
           <ObjectLayout>
             <DYMOPoint>
