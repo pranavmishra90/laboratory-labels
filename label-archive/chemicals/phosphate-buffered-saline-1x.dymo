@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DesktopLabel Version="1">
-  <DYMOLabel Version="3">
+  <DYMOLabel Version="4">
     <Description>DYMO Label</Description>
     <Orientation>Landscape</Orientation>
     <LabelName>Address</LabelName>
@@ -23,6 +23,8 @@
     </BorderColor>
     <BorderThickness>1</BorderThickness>
     <Show_Border>False</Show_Border>
+    <HasFixedLength>False</HasFixedLength>
+    <FixedLengthValue>0</FixedLengthValue>
     <DynamicLayoutManager>
       <RotationBehavior>ClearObjects</RotationBehavior>
       <LabelObjects>
@@ -71,7 +73,7 @@
                 <Text>PBS 1x</Text>
                 <FontInfo>
                   <FontName>Arial</FontName>
-                  <FontSize>17.1</FontSize>
+                  <FontSize>17.5</FontSize>
                   <IsBold>False</IsBold>
                   <IsItalic>False</IsItalic>
                   <IsUnderline>False</IsUnderline>
@@ -128,13 +130,13 @@
           </Margin>
           <BarcodeFormat>QRCode</BarcodeFormat>
           <Data>
-            <DataString>PBS 10x Stock
-Phosphate Buffered Saline from 10x stock
-NaCl 8, KCl 0.2, Na2HPO4 1.44, KH2PO4 0.245 (g/L)
+            <DataString>PBS 1x
+1x Phosphate Buffered Saline (PBS) diluted from a 10x PBS stock (Invitrogen AM9625) using diH2O
 pH 7.4
-Caution: Sterile
 
-Created: March 31, 2022
+Sterile (Autoclaved)
+
+Created: March 9, 2026
 Stored by: Pranav Kumar Mishra
 Anna Spagnoli Lab
 Rush University, Chicago, IL, USA</DataString>
@@ -144,13 +146,13 @@ Rush University, Chicago, IL, USA</DataString>
           <Size>AutoFit</Size>
           <EQRCodeType>QRCodeText</EQRCodeType>
           <TextDataHolder>
-            <Value>PBS 10x Stock
-Phosphate Buffered Saline from 10x stock
-NaCl 8, KCl 0.2, Na2HPO4 1.44, KH2PO4 0.245 (g/L)
+            <Value>PBS 1x
+1x Phosphate Buffered Saline (PBS) diluted from a 10x PBS stock (Invitrogen AM9625) using diH2O
 pH 7.4
-Caution: Sterile
 
-Created: March 31, 2022
+Sterile (Autoclaved)
+
+Created: March 9, 2026
 Stored by: Pranav Kumar Mishra
 Anna Spagnoli Lab
 Rush University, Chicago, IL, USA</Value>
@@ -277,7 +279,7 @@ Rush University, Chicago, IL, USA</Value>
             <IsVertical>False</IsVertical>
             <LineTextSpan>
               <TextSpan>
-                <Text>Phosphate Buffered Saline from 10x stock</Text>
+                <Text>1x Phosphate Buffered Saline (PBS) diluted</Text>
                 <FontInfo>
                   <FontName>Segoe UI</FontName>
                   <FontSize>6</FontSize>
@@ -294,7 +296,7 @@ Rush University, Chicago, IL, USA</Value>
             </LineTextSpan>
             <LineTextSpan>
               <TextSpan>
-                <Text>NaCl 8, KCl 0.2, Na2HPO4 1.44, KH2PO4 0.245 (g/L)</Text>
+                <Text>from 10x stock (Invitrogen AM9625)</Text>
                 <FontInfo>
                   <FontName>Segoe UI</FontName>
                   <FontSize>6</FontSize>
@@ -452,7 +454,7 @@ Rush University, Chicago, IL, USA</Value>
                 <Text />
                 <FontInfo>
                   <FontName>Segoe UI</FontName>
-                  <FontSize>2</FontSize>
+                  <FontSize>1.5</FontSize>
                   <IsBold>True</IsBold>
                   <IsItalic>False</IsItalic>
                   <IsUnderline>False</IsUnderline>
@@ -464,10 +466,10 @@ Rush University, Chicago, IL, USA</Value>
                 </FontInfo>
               </TextSpan>
               <FixedTextSpan>
-                <Text>31-Mar-23</Text>
+                <Text>9-Mar-26</Text>
                 <FontInfo>
                   <FontName>Segoe UI</FontName>
-                  <FontSize>2</FontSize>
+                  <FontSize>1.5</FontSize>
                   <IsBold>True</IsBold>
                   <IsItalic>False</IsItalic>
                   <IsUnderline>False</IsUnderline>
@@ -482,7 +484,7 @@ Rush University, Chicago, IL, USA</Value>
                 <Text />
                 <FontInfo>
                   <FontName>Segoe UI</FontName>
-                  <FontSize>2</FontSize>
+                  <FontSize>1.5</FontSize>
                   <IsBold>True</IsBold>
                   <IsItalic>False</IsItalic>
                   <IsUnderline>False</IsUnderline>
@@ -500,6 +502,8 @@ Rush University, Chicago, IL, USA</Value>
           <Format>DayAbbrMonthYear</Format>
           <Use24HourTime>False</Use24HourTime>
           <TimeFormat>Date</TimeFormat>
+          <IsStatic>False</IsStatic>
+          <StaticDateTime>2026-03-09T17:05:42.6161030-05:00</StaticDateTime>
           <ObjectLayout>
             <DYMOPoint>
               <X>3.232082</X>
